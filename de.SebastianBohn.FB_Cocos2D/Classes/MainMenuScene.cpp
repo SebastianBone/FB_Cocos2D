@@ -31,15 +31,15 @@ bool MainMenuScene::init(){
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
-    auto backgroundSprite = Sprite::create("Sky.png");
-    backgroundSprite->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-    backgroundSprite->setScale(1, 3.5f);
-    this->addChild(backgroundSprite);
+    auto background = Sprite::create("Sky.png");
+    background->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+    background->setScale(1, 3.5f);
+    this->addChild(background, 0);
     
     auto ground = Sprite::create("Ground.png");
     ground->setPosition(Point(visibleSize.width/2 + origin.x, 15));
     ground->setScale(1, 1.5f);
-    this->addChild(ground);
+    this->addChild(ground, 2);
     
     auto startButton = MenuItemImage::create("StartButton.png", "StartButton.png", CC_CALLBACK_1(MainMenuScene::startGame, this));
     startButton->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
