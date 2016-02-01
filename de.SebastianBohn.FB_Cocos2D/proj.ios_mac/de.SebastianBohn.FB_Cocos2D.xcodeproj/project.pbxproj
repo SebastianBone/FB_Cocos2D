@@ -68,6 +68,8 @@
 		980275FF1C5C15A500E1FBBB /* Red_Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 980275FB1C5C15A500E1FBBB /* Red_Bird.png */; };
 		980276021C5C1C4A00E1FBBB /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 980276001C5C1C4A00E1FBBB /* GameScene.cpp */; };
 		980276071C5D19A000E1FBBB /* Bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 980276061C5D19A000E1FBBB /* Bird.cpp */; };
+		9806A7D01C6006EA004BB8C5 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9806A7CF1C6006EA004BB8C5 /* GameOverScene.cpp */; };
+		9806A7D31C6013A6004BB8C5 /* Pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9806A7D21C6013A6004BB8C5 /* Pipe.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -173,6 +175,10 @@
 		980276051C5C212600E1FBBB /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		980276061C5D19A000E1FBBB /* Bird.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bird.cpp; sourceTree = "<group>"; };
 		980276081C5D19E100E1FBBB /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		9806A7CE1C60069E004BB8C5 /* GameOverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		9806A7CF1C6006EA004BB8C5 /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverScene.cpp; sourceTree = "<group>"; };
+		9806A7D11C60138C004BB8C5 /* Pipe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pipe.h; sourceTree = "<group>"; };
+		9806A7D21C6013A6004BB8C5 /* Pipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pipe.cpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -324,7 +330,9 @@
 			children = (
 				980275F01C59323500E1FBBB /* Headers */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
+				9806A7D21C6013A6004BB8C5 /* Pipe.cpp */,
 				46880B8619C43A87006E1F66 /* MainMenuScene.cpp */,
+				9806A7CF1C6006EA004BB8C5 /* GameOverScene.cpp */,
 				980276001C5C1C4A00E1FBBB /* GameScene.cpp */,
 				980276061C5D19A000E1FBBB /* Bird.cpp */,
 			);
@@ -387,6 +395,8 @@
 				46880B8719C43A87006E1F66 /* MainMenuScene.h */,
 				980276051C5C212600E1FBBB /* Constants.h */,
 				980276081C5D19E100E1FBBB /* Bird.h */,
+				9806A7CE1C60069E004BB8C5 /* GameOverScene.h */,
+				9806A7D11C60138C004BB8C5 /* Pipe.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -538,12 +548,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9806A7D31C6013A6004BB8C5 /* Pipe.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* MainMenuScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				980276021C5C1C4A00E1FBBB /* GameScene.cpp in Sources */,
 				980276071C5D19A000E1FBBB /* Bird.cpp in Sources */,
+				9806A7D01C6006EA004BB8C5 /* GameOverScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,7 +17,7 @@ public:
         isFalling = true;
     }
     
-    void scoreCollider();
+    void skyCollider();
     
 private:
     cocos2d::Size visibleSize;
