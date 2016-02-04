@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "MainMenuScene.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
 
@@ -74,6 +75,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
     //Put animation frames in SpriteFrame cache
     SpriteFrameCache::getInstance()->addSpriteFramesWithFile("bird.plist");
+    CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("BGMusic.mp3", true);
+    
 
     register_all_packages();
 

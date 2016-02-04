@@ -347,7 +347,9 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/__/Classes/AppDelegate.o: \
  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/3d/../deprecated/CCSet.h \
  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/3d/../deprecated/CCString.h \
  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
- jni/../../../Classes/MainMenuScene.h
+ jni/../../../Classes/MainMenuScene.h \
+ /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h \
+ /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/audio/android/../include/Export.h
 
 jni/../../../Classes/AppDelegate.h:
 
@@ -1046,3 +1048,7 @@ jni/../../../Classes/AppDelegate.h:
 /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
 
 jni/../../../Classes/MainMenuScene.h:
+
+/Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h:
+
+/Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/proj.android-studio/../cocos2d/cocos/audio/android/../include/Export.h:

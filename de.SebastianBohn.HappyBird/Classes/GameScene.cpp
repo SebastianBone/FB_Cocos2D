@@ -7,7 +7,7 @@ USING_NS_CC;
 
 Scene* GameScene::createScene(){
     auto scene = Scene::createWithPhysics();
-    scene->getPhysicsWorld()->setGravity(Vec2(0, 0));
+    scene->getPhysicsWorld()->setGravity(Vect(0,0));
     
     auto layer = GameScene::create();
     layer->setPhysicsWorld(scene->getPhysicsWorld());
@@ -89,6 +89,7 @@ bool GameScene::onContactBegin(cocos2d::PhysicsContact &contact){
         
         auto scene = GameOverScene::createScene();
         Director::getInstance()->replaceScene(TransitionFade::create(0,scene));
+
     }
     
     if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && SCORE_COLLISION_BITMASK == b->getCollisionBitmask()) ||  (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && SCORE_COLLISION_BITMASK == a->getCollisionBitmask())) {
@@ -99,14 +100,15 @@ bool GameScene::onContactBegin(cocos2d::PhysicsContact &contact){
         
         scoreLabel->setString(tempScore->getCString());
         
+        return false;
+        
     }
     
     if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && SKY_COLLISION_BITMASK == b->getCollisionBitmask()) ||  (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && SKY_COLLISION_BITMASK == a->getCollisionBitmask())) {
         
         bird->skyCollider();
-    }
 
-    
+    }
     return true;
 }
 

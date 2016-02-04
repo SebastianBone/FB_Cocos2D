@@ -22,7 +22,6 @@ Bird::Bird(cocos2d::Layer *layer){
     auto animate = Animate::create(animation);
     auto action = RepeatForever::create(animate);
     
-    
     bird = Sprite::createWithSpriteFrameName("sprite_1.png");
     
     bird->setPosition(Point(visibleSize.width/2 + origin.x/2, visibleSize.height/2 + origin.y));
@@ -32,6 +31,7 @@ Bird::Bird(cocos2d::Layer *layer){
     birdBody = PhysicsBody::createCircle(bird->getContentSize().width/2);
     birdBody->setCollisionBitmask(BIRD_COLLISION_BITMASK);
     birdBody->setContactTestBitmask(true);
+    //birdBody->setGravityEnable(true);
     
     bird->setPhysicsBody(birdBody);
     layer->addChild(bird,3);
@@ -48,6 +48,8 @@ void Bird::fall(){
     else{
         bird->setPositionX(visibleSize.width/2 + origin.x/2);
         bird->setPositionY(bird->getPositionY() + (visibleSize.height * BIRD_FLY_FORCE));
+    
+        //bird->runAction(JumpTo::create(1, Point(bird->getPositionX(),bird->getPositionY()), 10, 1));
     }
 }
 
