@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexShape.cpp \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCollisionShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btTransform.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btMatrix3x3.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btVector3.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btScalar.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btMinMax.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAlignedAllocator.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btQuaternion.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btQuadWord.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCollisionMargin.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btTriangleShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btBoxShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexInternalShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAabbUtil2.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btSphereShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCylinderShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConeShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCapsuleShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexHullShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAlignedObjectArray.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.h

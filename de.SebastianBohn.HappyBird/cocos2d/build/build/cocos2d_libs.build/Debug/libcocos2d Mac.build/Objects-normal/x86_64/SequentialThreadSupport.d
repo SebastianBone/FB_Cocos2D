@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/SequentialThreadSupport.cpp \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/SequentialThreadSupport.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btScalar.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/PlatformDefinitions.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btMinMax.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/vmInclude.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/vectormath_aos.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/vecidx_aos.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/floatInVec.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/boolInVec.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/vec_aos.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/quat_aos.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/vectormath/sse/mat_aos.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/PpuAddressSpace.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAlignedObjectArray.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAlignedAllocator.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/btThreadSupportInterface.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/SpuCollisionTaskProcess.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/SpuNarrowPhaseCollisionTask/SpuGatheringCollisionTask.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//CollisionDispatch/btCollisionObject.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btTransform.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btMatrix3x3.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btVector3.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btQuaternion.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btQuadWord.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btMotionState.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//CollisionShapes/btCollisionShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//CollisionShapes/btConvexShape.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//CollisionShapes/btCollisionMargin.h

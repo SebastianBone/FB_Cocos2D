@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/btGpu3DGridBroadphase.cpp \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletMultiThreaded/btGpuDefines.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletMultiThreaded/btGpuUtilsSharedDefs.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletMultiThreaded/btGpuUtilsSharedCode.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAlignedAllocator.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btScalar.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btQuickprof.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCache.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btBroadphaseInterface.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btVector3.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btMinMax.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btOverlappingPairCallback.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/LinearMath/btAlignedObjectArray.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/btGpu3DGridBroadphaseSharedDefs.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/btGpu3DGridBroadphaseSharedTypes.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/btGpu3DGridBroadphase.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btSimpleBroadphase.h \
+  /Users/s.bohn/Developer/FB_Cocos2D/de.SebastianBohn.HappyBird/cocos2d/external/bullet/BulletMultiThreaded/btGpu3DGridBroadphaseSharedCode.h
