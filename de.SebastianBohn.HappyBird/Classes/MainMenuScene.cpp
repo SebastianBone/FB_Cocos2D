@@ -1,8 +1,6 @@
 #include "MainMenuScene.h"
 #include "GameScene.h"
 #include "Constants.h"
-
-
 USING_NS_CC;
 
 Scene* MainMenuScene::createScene(){

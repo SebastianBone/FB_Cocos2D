@@ -73,9 +73,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
         director->setContentScaleFactor(MIN(smallResolutionSize.height/designResolutionSize.height, smallResolutionSize.width/designResolutionSize.width));
     }
     
-    //Put animation frames in SpriteFrame cache
-    //SpriteFrameCache::getInstance()->addSpriteFramesWithFile("bird.plist");
-    //SpriteFrameCache::getInstance()->addSpriteFramesWithFile("bird_plist.plist");
+    // Hintergrundmusik global abspielen
     CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("BGMusic.mp3", true);
     
 

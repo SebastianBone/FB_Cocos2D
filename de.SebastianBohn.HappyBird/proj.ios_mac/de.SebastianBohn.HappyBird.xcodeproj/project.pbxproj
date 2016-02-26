@@ -58,7 +58,6 @@
 		9830B1661C638D8900A5D2E3 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1531C638D8900A5D2E3 /* fonts */; };
 		9830B1671C638D8900A5D2E3 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1541C638D8900A5D2E3 /* Ground.png */; };
 		9830B16B1C638D8900A5D2E3 /* Pipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1581C638D8900A5D2E3 /* Pipe.png */; };
-		9830B16D1C638D8900A5D2E3 /* Red_Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15A1C638D8900A5D2E3 /* Red_Bird.png */; };
 		9830B16E1C638D8900A5D2E3 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15B1C638D8900A5D2E3 /* res */; };
 		9830B1701C638D8900A5D2E3 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15D1C638D8900A5D2E3 /* Sky.png */; };
 		9830B1711C638D8900A5D2E3 /* sprite_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15E1C638D8900A5D2E3 /* sprite_1.png */; };
@@ -66,7 +65,6 @@
 		9830B1731C638D8900A5D2E3 /* sprite_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1601C638D8900A5D2E3 /* sprite_3.png */; };
 		9830B1741C638D8900A5D2E3 /* sprite_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1611C638D8900A5D2E3 /* sprite_4.png */; };
 		9830B1751C638D8900A5D2E3 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1621C638D8900A5D2E3 /* StartButton.png */; };
-		9830B17E1C638EF700A5D2E3 /* bird.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9830B17C1C638EF700A5D2E3 /* bird.plist */; };
 		98B9245E1C63B2ED00BC2BDF /* BGMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98B9245D1C63B2ED00BC2BDF /* BGMusic.mp3 */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -171,7 +169,6 @@
 		9830B1531C638D8900A5D2E3 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		9830B1541C638D8900A5D2E3 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
 		9830B1581C638D8900A5D2E3 /* Pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe.png; sourceTree = "<group>"; };
-		9830B15A1C638D8900A5D2E3 /* Red_Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Bird.png; sourceTree = "<group>"; };
 		9830B15B1C638D8900A5D2E3 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		9830B15D1C638D8900A5D2E3 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
 		9830B15E1C638D8900A5D2E3 /* sprite_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite_1.png; sourceTree = "<group>"; };
@@ -179,7 +176,6 @@
 		9830B1601C638D8900A5D2E3 /* sprite_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite_3.png; sourceTree = "<group>"; };
 		9830B1611C638D8900A5D2E3 /* sprite_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite_4.png; sourceTree = "<group>"; };
 		9830B1621C638D8900A5D2E3 /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
-		9830B17C1C638EF700A5D2E3 /* bird.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bird.plist; sourceTree = "<group>"; };
 		98B9245D1C63B2ED00BC2BDF /* BGMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGMusic.mp3; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -393,12 +389,10 @@
 			children = (
 				98233D991C7FC4EF00407BD8 /* bird_plist.plist */,
 				98233D9A1C7FC4EF00407BD8 /* bird_plist.png */,
-				9830B15A1C638D8900A5D2E3 /* Red_Bird.png */,
 				9830B15E1C638D8900A5D2E3 /* sprite_1.png */,
 				9830B15F1C638D8900A5D2E3 /* sprite_2.png */,
 				9830B1601C638D8900A5D2E3 /* sprite_3.png */,
 				9830B1611C638D8900A5D2E3 /* sprite_4.png */,
-				9830B17C1C638EF700A5D2E3 /* bird.plist */,
 			);
 			name = Bird;
 			sourceTree = "<group>";
@@ -518,7 +512,6 @@
 				98B9245E1C63B2ED00BC2BDF /* BGMusic.mp3 in Resources */,
 				9830B1731C638D8900A5D2E3 /* sprite_3.png in Resources */,
 				9830B1661C638D8900A5D2E3 /* fonts in Resources */,
-				9830B17E1C638EF700A5D2E3 /* bird.plist in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
@@ -534,7 +527,6 @@
 				9830B1711C638D8900A5D2E3 /* sprite_1.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				9830B16B1C638D8900A5D2E3 /* Pipe.png in Resources */,
-				9830B16D1C638D8900A5D2E3 /* Red_Bird.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
@@ -629,6 +621,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
@@ -665,6 +658,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",

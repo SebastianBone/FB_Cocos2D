@@ -2,39 +2,30 @@
 #include "GameOverScene.h"
 #include "Bird.h"
 #include "Constants.h"
-
 USING_NS_CC;
 
 Scene* GameScene::createScene(){
+    
     auto scene = Scene::createWithPhysics();
-    
-    //scene->getPhysicsWorld()->setGravity(Vect(0,-98.1f));
     scene->getPhysicsWorld()->setGravity(Vect(0,-110.0f));
-    
     auto layer = GameScene::create();
     layer->setPhysicsWorld(scene->getPhysicsWorld());
-    
-    scene->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
-    
     scene->addChild(layer);
     return scene;
 }
 
 bool GameScene::init(){
     
-    if (!Layer::init()) {
+    if (!Layer::init()){
         return false;
     }
-    
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
-    
     
     auto background = Sprite::create("Sky.png");
     background->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     background->setScale(1, 3.5f);
     this->addChild(background, 0);
-    
     
     auto ground = Sprite::create("Ground.png");
     ground->setPosition(Point(visibleSize.width/2 + origin.x, 15));
@@ -46,8 +37,6 @@ bool GameScene::init(){
     ground->setPhysicsBody(groundBody);
     this->addChild(ground, 2);
     
-    
-    
     auto skyNode = Node::create();
     auto skyBody = PhysicsBody::createBox(Size(visibleSize.width, 0));
     skyBody->setCollisionBitmask(SKY_COLLISION_BITMASK);
@@ -56,7 +45,6 @@ bool GameScene::init(){
     skyNode->setPhysicsBody(skyBody);
     skyNode->setPosition(visibleSize.width + origin.x/2 -20, visibleSize.height + origin.y);
     this->addChild(skyNode);
-    
     
     this->schedule(schedule_selector(GameScene::spawnPipe), PIPE_SPAWN_FREQUENCY * visibleSize.width);
     
@@ -85,55 +73,32 @@ bool GameScene::init(){
 
 void GameScene::spawnPipe(float deltaTime){
     pipe.spawnPipe(this);
-    
 }
 
 bool GameScene::onContactBegin(cocos2d::PhysicsContact &contact){
     PhysicsBody *a = contact.getShapeA()->getBody();
     PhysicsBody *b = contact.getShapeB()->getBody();
 
-    if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && OBSTACLE_COLLISION_BITMASK == b->getCollisionBitmask()) ||  (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && OBSTACLE_COLLISION_BITMASK == a->getCollisionBitmask())) {
+    if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && OBSTACLE_COLLISION_BITMASK == b->getCollisionBitmask()) ||
+        (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && OBSTACLE_COLLISION_BITMASK == a->getCollisionBitmask())) {
         
-        auto scene = GameOverScene::createScene();
-        Director::getInstance()->replaceScene(TransitionFade::create(0,scene));
-        
-        return true;
-
+            auto scene = GameOverScene::createScene();
+            Director::getInstance()->replaceScene(TransitionFade::create(0,scene));
+            return true;
     }
     
-    if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && SCORE_COLLISION_BITMASK == b->getCollisionBitmask()) ||  (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && SCORE_COLLISION_BITMASK == a->getCollisionBitmask())) {
+    if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && SCORE_COLLISION_BITMASK == b->getCollisionBitmask()) ||
+        (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && SCORE_COLLISION_BITMASK == a->getCollisionBitmask())) {
         
-        scoreCount++;
-        
-        __String *tempScore = __String::createWithFormat("%i",scoreCount);
-        
-        scoreLabel->setString(tempScore->getCString());
-        
-        
-        return false;
-        
-    }
-    
-    if ((BIRD_COLLISION_BITMASK == a->getCollisionBitmask() && SKY_COLLISION_BITMASK == b->getCollisionBitmask()) ||  (BIRD_COLLISION_BITMASK == b->getCollisionBitmask() && SKY_COLLISION_BITMASK == a->getCollisionBitmask())) {
-        
-//        bird->skyCollider();
-
-    }
+            scoreCount++;
+            __String *tempScore = __String::createWithFormat("%i",scoreCount);
+            scoreLabel->setString(tempScore->getCString());
+            return false;
+        }
     return true;
 }
-
 
 bool GameScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event){
     bird->fly();
-    //this->scheduleOnce(schedule_selector(GameScene::stopFlying), BIRD_FLY_DURATION);
     return true;
-}
-//
-//
-//void GameScene::stopFlying(float deltaTime){
-//    bird->stopFlying();
-//}
-//
-void GameScene::update(float deltaTime){
-    //bird->fall();
 }

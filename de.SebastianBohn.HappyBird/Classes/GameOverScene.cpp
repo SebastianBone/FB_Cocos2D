@@ -1,8 +1,6 @@
 #include "GameOverScene.h"
 #include "GameScene.h"
 #include "Constants.h"
-
-
 USING_NS_CC;
 
 Scene* GameOverScene::createScene(){
