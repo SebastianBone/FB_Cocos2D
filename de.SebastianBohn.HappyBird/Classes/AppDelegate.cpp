@@ -74,7 +74,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
     
     //Put animation frames in SpriteFrame cache
-    SpriteFrameCache::getInstance()->addSpriteFramesWithFile("bird.plist");
+    //SpriteFrameCache::getInstance()->addSpriteFramesWithFile("bird.plist");
+    //SpriteFrameCache::getInstance()->addSpriteFramesWithFile("bird_plist.plist");
     CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("BGMusic.mp3", true);
     
 

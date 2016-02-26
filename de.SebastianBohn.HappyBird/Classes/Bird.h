@@ -9,9 +9,10 @@ public:
     Bird(cocos2d::Layer *layer);
     
     void fall();
-    void fly(){
-        isFalling = false;
-    }
+    void fly();
+//    {
+//        isFalling = false;
+//    }
     
     void stopFlying(){
         isFalling = true;

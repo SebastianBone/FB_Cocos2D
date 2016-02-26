@@ -3,11 +3,19 @@
 
 USING_NS_CC;
 
-Pipe::Pipe( )
-{
-    visibleSize = Director::getInstance( )->getVisibleSize( );
-    origin = Director::getInstance( )->getVisibleOrigin( );
+Pipe::Pipe(){
+    
+    visibleSize = Director::getInstance()->getVisibleSize();
+    origin = Director::getInstance()->getVisibleOrigin();
+    
+    
 }
+
+void Pipe::removePipe(cocos2d::Layer *layer){
+    //layer->removeChild()
+}
+
+
 
 void Pipe::spawnPipe( cocos2d::Layer *layer )
 {
@@ -48,7 +56,7 @@ void Pipe::spawnPipe( cocos2d::Layer *layer )
     bottomPipe->setPhysicsBody( bottomPipeBody );
     
     topPipe->setPosition( Point( visibleSize.width + topPipe->getContentSize().width + origin.x, topPipePosition ) );
-    bottomPipe->setPosition( Point( topPipe->getPositionX(), topPipePosition - ( Sprite::create( "Red_Bird_0.png" )->getContentSize( ).height + 7*PIPE_GAP ) - topPipe->getContentSize().height ) );
+    bottomPipe->setPosition( Point( topPipe->getPositionX(), topPipePosition - ( Sprite::create( "sprite_1.png" )->getContentSize( ).height + 7*PIPE_GAP ) - topPipe->getContentSize().height ) );
     
     layer->addChild( topPipe, 0 );
     layer->addChild( bottomPipe, 0 );
@@ -59,18 +67,18 @@ void Pipe::spawnPipe( cocos2d::Layer *layer )
     topPipe->runAction( topPipeAction );
     bottomPipe->runAction( bottomPipeAction );
     
-    auto pointNode = Node::create( );
-    auto pointBody = PhysicsBody::createBox( Size( 0, Sprite::create( "Red_Bird_0.png" )->getContentSize( ).height * PIPE_GAP ));
-    pointBody->setDynamic( true );
-    pointBody->setCollisionBitmask( SCORE_COLLISION_BITMASK );
-    pointBody->setContactTestBitmask( true );
+    auto scoreNode = Node::create( );
+    auto scoreBody = PhysicsBody::createBox( Size( 0, Sprite::create( "sprite_1.png" )->getContentSize( ).height * PIPE_GAP ));
+    scoreBody->setDynamic( true );
+    scoreBody->setCollisionBitmask( SCORE_COLLISION_BITMASK );
+    scoreBody->setContactTestBitmask( true );
     
-    pointNode->setPhysicsBody( pointBody );
-    pointNode->setPosition( Point( topPipe->getPositionX( )+ topPipe->getContentSize().width / 2, topPipe->getPositionY( ) - ( topPipe->getContentSize( ).height / 2 ) - ( ( Sprite::create( "Red_Bird_0.png" )->getContentSize( ).height + 7*PIPE_GAP ) / 2 ) ) );
+    scoreNode->setPhysicsBody( scoreBody );
+    scoreNode->setPosition( Point( topPipe->getPositionX( )+ topPipe->getContentSize().width / 2, topPipe->getPositionY( ) - ( topPipe->getContentSize( ).height / 2 ) - ( ( Sprite::create( "sprite_1.png" )->getContentSize( ).height + 7*PIPE_GAP ) / 2 ) ) );
     
-    layer->addChild( pointNode );
+    layer->addChild( scoreNode );
     
     auto pointNodeAction = MoveBy::create( PIPE_MOVEMENT_SPEED * visibleSize.width, Point( -visibleSize.width * 1.5, 0 ) );
     
-    pointNode->runAction( pointNodeAction );
+    scoreNode->runAction( pointNodeAction );
 }

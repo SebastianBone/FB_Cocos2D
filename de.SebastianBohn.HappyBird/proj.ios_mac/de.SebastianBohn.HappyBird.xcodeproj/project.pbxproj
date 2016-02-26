@@ -48,6 +48,8 @@
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		98233D9B1C7FC4EF00407BD8 /* bird_plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98233D991C7FC4EF00407BD8 /* bird_plist.plist */; };
+		98233D9C1C7FC4EF00407BD8 /* bird_plist.png in Resources */ = {isa = PBXBuildFile; fileRef = 98233D9A1C7FC4EF00407BD8 /* bird_plist.png */; };
 		9830B12B1C638CF200A5D2E3 /* Bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9830B1201C638CF200A5D2E3 /* Bird.cpp */; };
 		9830B12C1C638CF200A5D2E3 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9830B1231C638CF200A5D2E3 /* GameOverScene.cpp */; };
 		9830B12D1C638CF200A5D2E3 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9830B1251C638CF200A5D2E3 /* GameScene.cpp */; };
@@ -56,7 +58,6 @@
 		9830B1661C638D8900A5D2E3 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1531C638D8900A5D2E3 /* fonts */; };
 		9830B1671C638D8900A5D2E3 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1541C638D8900A5D2E3 /* Ground.png */; };
 		9830B16B1C638D8900A5D2E3 /* Pipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1581C638D8900A5D2E3 /* Pipe.png */; };
-		9830B16C1C638D8900A5D2E3 /* Red_Bird_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1591C638D8900A5D2E3 /* Red_Bird_0.png */; };
 		9830B16D1C638D8900A5D2E3 /* Red_Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15A1C638D8900A5D2E3 /* Red_Bird.png */; };
 		9830B16E1C638D8900A5D2E3 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15B1C638D8900A5D2E3 /* res */; };
 		9830B1701C638D8900A5D2E3 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B15D1C638D8900A5D2E3 /* Sky.png */; };
@@ -66,7 +67,6 @@
 		9830B1741C638D8900A5D2E3 /* sprite_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1611C638D8900A5D2E3 /* sprite_4.png */; };
 		9830B1751C638D8900A5D2E3 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B1621C638D8900A5D2E3 /* StartButton.png */; };
 		9830B17E1C638EF700A5D2E3 /* bird.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9830B17C1C638EF700A5D2E3 /* bird.plist */; };
-		9830B17F1C638EF700A5D2E3 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 9830B17D1C638EF700A5D2E3 /* bird.png */; };
 		98B9245E1C63B2ED00BC2BDF /* BGMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98B9245D1C63B2ED00BC2BDF /* BGMusic.mp3 */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -155,6 +155,8 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		98233D991C7FC4EF00407BD8 /* bird_plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bird_plist.plist; sourceTree = "<group>"; };
+		98233D9A1C7FC4EF00407BD8 /* bird_plist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_plist.png; sourceTree = "<group>"; };
 		9830B1201C638CF200A5D2E3 /* Bird.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bird.cpp; sourceTree = "<group>"; };
 		9830B1211C638CF200A5D2E3 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		9830B1221C638CF200A5D2E3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -169,7 +171,6 @@
 		9830B1531C638D8900A5D2E3 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		9830B1541C638D8900A5D2E3 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
 		9830B1581C638D8900A5D2E3 /* Pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pipe.png; sourceTree = "<group>"; };
-		9830B1591C638D8900A5D2E3 /* Red_Bird_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Bird_0.png; sourceTree = "<group>"; };
 		9830B15A1C638D8900A5D2E3 /* Red_Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Bird.png; sourceTree = "<group>"; };
 		9830B15B1C638D8900A5D2E3 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		9830B15D1C638D8900A5D2E3 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
@@ -179,7 +180,6 @@
 		9830B1611C638D8900A5D2E3 /* sprite_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite_4.png; sourceTree = "<group>"; };
 		9830B1621C638D8900A5D2E3 /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
 		9830B17C1C638EF700A5D2E3 /* bird.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bird.plist; sourceTree = "<group>"; };
-		9830B17D1C638EF700A5D2E3 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
 		98B9245D1C63B2ED00BC2BDF /* BGMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGMusic.mp3; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -391,14 +391,14 @@
 		9830B1761C638E0C00A5D2E3 /* Bird */ = {
 			isa = PBXGroup;
 			children = (
-				9830B1591C638D8900A5D2E3 /* Red_Bird_0.png */,
+				98233D991C7FC4EF00407BD8 /* bird_plist.plist */,
+				98233D9A1C7FC4EF00407BD8 /* bird_plist.png */,
 				9830B15A1C638D8900A5D2E3 /* Red_Bird.png */,
 				9830B15E1C638D8900A5D2E3 /* sprite_1.png */,
 				9830B15F1C638D8900A5D2E3 /* sprite_2.png */,
 				9830B1601C638D8900A5D2E3 /* sprite_3.png */,
 				9830B1611C638D8900A5D2E3 /* sprite_4.png */,
 				9830B17C1C638EF700A5D2E3 /* bird.plist */,
-				9830B17D1C638EF700A5D2E3 /* bird.png */,
 			);
 			name = Bird;
 			sourceTree = "<group>";
@@ -523,10 +523,10 @@
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				9830B1741C638D8900A5D2E3 /* sprite_4.png in Resources */,
-				9830B16C1C638D8900A5D2E3 /* Red_Bird_0.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				9830B1701C638D8900A5D2E3 /* Sky.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				98233D9C1C7FC4EF00407BD8 /* bird_plist.png in Resources */,
 				9830B1721C638D8900A5D2E3 /* sprite_2.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
@@ -535,10 +535,10 @@
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				9830B16B1C638D8900A5D2E3 /* Pipe.png in Resources */,
 				9830B16D1C638D8900A5D2E3 /* Red_Bird.png in Resources */,
-				9830B17F1C638EF700A5D2E3 /* bird.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				98233D9B1C7FC4EF00407BD8 /* bird_plist.plist in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				9830B16E1C638D8900A5D2E3 /* res in Resources */,
 				9830B1751C638D8900A5D2E3 /* StartButton.png in Resources */,
